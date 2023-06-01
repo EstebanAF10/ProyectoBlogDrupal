@@ -1,0 +1,20 @@
+uuid: 83d2a46f-b171-4941-ba6e-992b0ac3543b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_username
+field_name: field_username
+entity_type: node
+type: text
+settings:
+  max_length: 20
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
