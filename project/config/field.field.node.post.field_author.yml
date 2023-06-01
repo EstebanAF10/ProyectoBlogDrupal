@@ -1,0 +1,29 @@
+uuid: dbe21034-eb7f-477e-9d4c-b74d4cd9c79f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.post
+    - node.type.user
+id: node.post.field_author
+field_name: field_author
+entity_type: node
+bundle: post
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      user: user
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
