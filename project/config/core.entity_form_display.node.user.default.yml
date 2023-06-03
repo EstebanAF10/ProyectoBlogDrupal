@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.user.field_username
     - node.type.user
   module:
+    - media_library
     - path
     - text
 id: node.user.default
@@ -32,14 +33,11 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_user_image:
-    type: entity_reference_autocomplete
+    type: media_library_widget
     weight: 123
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
   field_username:
     type: text_textfield
