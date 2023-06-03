@@ -8,8 +8,119 @@ dependencies:
     - field.field.node.user.field_username
     - node.type.user
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: Username
+          context_mapping: {  }
+          column_widths: 33-67
+        components:
+          e1d52908-0e10-489c-9671-e0b36c0efab2:
+            uuid: e1d52908-0e10-489c-9671-e0b36c0efab2
+            region: second
+            configuration:
+              id: 'field_block:node:user:field_username'
+              label: Username
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          2cd31913-7778-4f78-a283-7861121f99ad:
+            uuid: 2cd31913-7778-4f78-a283-7861121f99ad
+            region: second
+            configuration:
+              id: 'field_block:node:user:title'
+              label: Title
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          8f319622-5edd-4a8b-8440-dc48e30c3e1b:
+            uuid: 8f319622-5edd-4a8b-8440-dc48e30c3e1b
+            region: first
+            configuration:
+              id: 'field_block:node:user:field_user_image'
+              label: 'User image'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: profile_image
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: Body
+          context_mapping: {  }
+          column_widths: 33-67
+        components:
+          68bc172c-4444-4d1e-9f6d-f521ee6859b4:
+            uuid: 68bc172c-4444-4d1e-9f6d-f521ee6859b4
+            region: first
+            configuration:
+              id: 'field_block:node:user:body'
+              label: 'Account information'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          58d59979-9a28-4a22-8567-615222659c6c:
+            uuid: 58d59979-9a28-4a22-8567-615222659c6c
+            region: second
+            configuration:
+              id: 'extra_field_block:node:user:links'
+              label: 'Published posts'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
 id: node.user.default
 targetEntityType: node
 bundle: user
@@ -20,7 +131,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   field_user_image:
     type: entity_reference_entity_view
@@ -29,18 +140,18 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 103
-    region: content
+    weight: 4
+    region: first
   field_username:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 1
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 3
     region: content
 hidden: {  }
