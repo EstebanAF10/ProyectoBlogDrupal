@@ -1,0 +1,29 @@
+uuid: a4c6e6d1-64ea-418c-bd20-e49756785a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.related_post
+    - field.storage.block_content.field_related_post
+    - node.type.post
+id: block_content.related_post.field_related_post
+field_name: field_related_post
+entity_type: block_content
+bundle: related_post
+label: 'related post'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      post: post
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,10 @@
+uuid: 60986ba9-1fd3-4d92-94d8-4b0905618ef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.custom_video_format
+label: 'Custom video format'
+targetEntityType: node
+cache: true
