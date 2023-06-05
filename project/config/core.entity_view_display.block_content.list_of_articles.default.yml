@@ -8,7 +8,39 @@ dependencies:
     - field.field.block_content.list_of_articles.field_article
     - field.field.block_content.list_of_articles.field_post
   module:
+    - layout_builder
+    - layout_discovery
     - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          44fb1517-1eb4-4dce-81f1-4d39e5c2317e:
+            uuid: 44fb1517-1eb4-4dce-81f1-4d39e5c2317e
+            region: content
+            configuration:
+              id: 'field_block:block_content:list_of_articles:field_post'
+              label: Post
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: teaser
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: block_content.list_of_articles.default
 targetEntityType: block_content
 bundle: list_of_articles

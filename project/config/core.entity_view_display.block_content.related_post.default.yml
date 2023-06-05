@@ -40,15 +40,17 @@ third_party_settings:
             region: content
             configuration:
               id: 'field_block:block_content:related_post:field_related_post'
+              label: 'related post'
               label_display: '0'
+              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
+                view_mode: view_mode
               formatter:
                 type: entity_reference_entity_view
                 label: above
                 settings:
                   view_mode: custom_teaser
-                  link: false
                 third_party_settings: {  }
             weight: 1
             additional: {  }
