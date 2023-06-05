@@ -1,0 +1,8 @@
+uuid: 3e31802b-834b-4ee6-ac7c-1c40cf327675
+langcode: en
+status: true
+dependencies: {  }
+id: list_of_articles
+label: 'List of articles'
+revision: 0
+description: ''

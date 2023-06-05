@@ -1,0 +1,36 @@
+uuid: abf347d0-7ab0-40fc-a72f-07022123ee93
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.list_of_articles
+    - field.storage.block_content.field_post
+    - node.type.post
+  content:
+    - 'node:post:6a9620bc-ee5b-4b4d-8825-d122e6c27dae'
+    - 'node:post:91c00c0b-ac2c-4c45-bc7f-eb85d29d25df'
+id: block_content.list_of_articles.field_post
+field_name: field_post
+entity_type: block_content
+bundle: list_of_articles
+label: Post
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 91c00c0b-ac2c-4c45-bc7f-eb85d29d25df
+  -
+    target_uuid: 6a9620bc-ee5b-4b4d-8825-d122e6c27dae
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      post: post
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

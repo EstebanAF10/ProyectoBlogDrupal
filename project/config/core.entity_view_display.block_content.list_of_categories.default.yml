@@ -1,0 +1,40 @@
+uuid: 92c9fbcd-6716-42e2-91c9-892f5c617983
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.list_of_categories
+    - field.field.block_content.list_of_categories.body
+    - field.field.block_content.list_of_categories.field_categories
+    - field.field.block_content.list_of_categories.field_category
+  module:
+    - text
+id: block_content.list_of_categories.default
+targetEntityType: block_content
+bundle: list_of_categories
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

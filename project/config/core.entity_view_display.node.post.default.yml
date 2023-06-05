@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - block_content.type.related_post
     - core.entity_view_display.comment.comment.default
     - field.field.node.post.body
     - field.field.node.post.field_author
@@ -76,21 +77,6 @@ third_party_settings:
           context_mapping: {  }
           column_widths: 33-67
         components:
-          819c0899-0def-48db-8e0f-c03782cd908e:
-            uuid: 819c0899-0def-48db-8e0f-c03782cd908e
-            region: first
-            configuration:
-              id: 'extra_field_block:node:post:links'
-              label: 'Related posts'
-              label_display: visible
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                settings: {  }
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
           a1bfd036-130b-41e0-a80f-f7645ad936cf:
             uuid: a1bfd036-130b-41e0-a80f-f7645ad936cf
             region: second
@@ -165,6 +151,20 @@ third_party_settings:
                   link: true
                 third_party_settings: {  }
             weight: 3
+            additional: {  }
+          c5d45db3-f17a-419d-90f7-eaa938605ca5:
+            uuid: c5d45db3-f17a-419d-90f7-eaa938605ca5
+            region: first
+            configuration:
+              id: 'inline_block:related_post'
+              label: 'Related posts'
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 9
+              block_serialized: null
+            weight: 1
             additional: {  }
         third_party_settings: {  }
 id: node.post.default
