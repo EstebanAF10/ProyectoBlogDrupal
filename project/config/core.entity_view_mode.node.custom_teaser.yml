@@ -1,0 +1,10 @@
+uuid: 3eb07437-1cae-47c0-9d14-ff336e1b4a01
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.custom_teaser
+label: 'Custom teaser'
+targetEntityType: node
+cache: true

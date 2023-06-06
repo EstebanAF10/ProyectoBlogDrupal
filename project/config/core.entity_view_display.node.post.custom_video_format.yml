@@ -1,0 +1,149 @@
+uuid: 49ff84de-5a6a-47c5-806f-684a5a8c7aae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - core.entity_view_mode.node.custom_video_format
+    - field.field.node.post.body
+    - field.field.node.post.field_author
+    - field.field.node.post.field_category
+    - field.field.node.post.field_comments
+    - field.field.node.post.field_keyword
+    - field.field.node.post.field_media_2
+    - node.type.post
+  module:
+    - comment
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: body
+          context_mapping: {  }
+        components:
+          87451d48-edc5-4dd0-b593-bf8ee1dcb469:
+            uuid: 87451d48-edc5-4dd0-b593-bf8ee1dcb469
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_media_2'
+              label: 'Media '
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          32261320-2982-4c2d-906c-671752eedcd2:
+            uuid: 32261320-2982-4c2d-906c-671752eedcd2
+            region: content
+            configuration:
+              id: 'field_block:node:post:uid'
+              label: 'Authored by'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: inline
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          1d9c9a3d-cbc5-4bdd-8f7c-303b4a0d9572:
+            uuid: 1d9c9a3d-cbc5-4bdd-8f7c-303b4a0d9572
+            region: content
+            configuration:
+              id: 'field_block:node:post:title'
+              label: Title
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: inline
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.post.custom_video_format
+targetEntityType: node
+bundle: post
+mode: custom_video_format
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_author:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_comments:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_keyword:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_media_2:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

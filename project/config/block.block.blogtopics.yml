@@ -1,0 +1,30 @@
+uuid: 420d35be-2061-4247-86ff-63ac76072329
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9394a99c-7ad2-4dc5-96fe-e82b7aedc5f8'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: blogtopics
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:9394a99c-7ad2-4dc5-96fe-e82b7aedc5f8'
+settings:
+  id: 'block_content:9394a99c-7ad2-4dc5-96fe-e82b7aedc5f8'
+  label: 'Blog Topics'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/blogs\r\n/node"

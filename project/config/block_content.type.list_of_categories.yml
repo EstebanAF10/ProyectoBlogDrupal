@@ -1,0 +1,8 @@
+uuid: 6184ff2a-4c2b-469b-9d77-71beb6271a27
+langcode: en
+status: true
+dependencies: {  }
+id: list_of_categories
+label: 'List of categories'
+revision: 0
+description: ''

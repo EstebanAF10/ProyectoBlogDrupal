@@ -1,0 +1,28 @@
+uuid: 80cb25d9-3938-48fa-8907-9323d4d894f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_block
+    - field.field.block_content.video_block.field_video
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.video_block.default
+targetEntityType: block_content
+bundle: video_block
+mode: default
+content:
+  field_video:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: custom_video_format
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

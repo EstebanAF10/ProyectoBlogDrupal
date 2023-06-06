@@ -1,0 +1,8 @@
+uuid: 3c61ff76-02bd-4866-a8a6-28eb632dfde1
+langcode: en
+status: true
+dependencies: {  }
+id: related_post
+label: 'Related post'
+revision: 0
+description: ''

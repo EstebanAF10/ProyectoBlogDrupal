@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - block_content.type.list_of_articles
     - field.field.node.user.body
     - field.field.node.user.field_user_image
     - field.field.node.user.field_username
@@ -105,20 +106,19 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          58d59979-9a28-4a22-8567-615222659c6c:
-            uuid: 58d59979-9a28-4a22-8567-615222659c6c
+          6fa78ff4-996c-4ec6-b087-de82cd6647d9:
+            uuid: 6fa78ff4-996c-4ec6-b087-de82cd6647d9
             region: second
             configuration:
-              id: 'extra_field_block:node:user:links'
-              label: 'Published posts'
+              id: 'inline_block:list_of_articles'
+              label: 'My posts'
               label_display: '0'
               provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                settings: {  }
-                third_party_settings: {  }
-            weight: 0
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 32
+              block_serialized: null
+            weight: 1
             additional: {  }
         third_party_settings: {  }
 id: node.user.default

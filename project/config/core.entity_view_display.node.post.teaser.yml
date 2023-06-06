@@ -13,9 +13,123 @@ dependencies:
     - image.style.banner
     - node.type.post
   module:
+    - layout_builder
     - media
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'Post content'
+          context_mapping: {  }
+          column_widths: 75-25
+        components:
+          f47016fc-d578-4c9c-9f07-bde5814c9ba5:
+            uuid: f47016fc-d578-4c9c-9f07-bde5814c9ba5
+            region: first
+            configuration:
+              id: 'field_block:node:post:created'
+              label: 'Authored on'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: timestamp
+                label: hidden
+                settings:
+                  date_format: olivero_medium
+                  custom_date_format: ''
+                  timezone: ''
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          b916e36e-27c3-4ea7-8dde-338fd2a940ff:
+            uuid: b916e36e-27c3-4ea7-8dde-338fd2a940ff
+            region: first
+            configuration:
+              id: 'field_block:node:post:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_trimmed
+                label: hidden
+                settings:
+                  trim_length: 100
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          6fa1b24b-7ba4-4496-bae9-25e4f02e10ee:
+            uuid: 6fa1b24b-7ba4-4496-bae9-25e4f02e10ee
+            region: first
+            configuration:
+              id: 'field_block:node:post:field_category'
+              label: Category
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          1d234dbe-69fa-4014-8477-fe83492fb6c6:
+            uuid: 1d234dbe-69fa-4014-8477-fe83492fb6c6
+            region: second
+            configuration:
+              id: 'field_block:node:post:field_media_2'
+              label: 'Media '
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: media_thumbnail
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: medium
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          cb246d26-907a-451f-a202-43205bd2ba04:
+            uuid: cb246d26-907a-451f-a202-43205bd2ba04
+            region: first
+            configuration:
+              id: 'field_block:node:post:field_author'
+              label: By
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
 id: node.post.teaser
 targetEntityType: node
 bundle: post
