@@ -1,0 +1,8 @@
+uuid: 539cff48-6809-47b0-a8d9-8430b1223ce7
+langcode: en
+status: true
+dependencies: {  }
+id: video_block
+label: 'Related videos'
+revision: 0
+description: ''

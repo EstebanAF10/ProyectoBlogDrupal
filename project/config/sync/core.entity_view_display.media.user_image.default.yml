@@ -1,0 +1,31 @@
+uuid: e1c9cddb-f9a8-44e5-b352-9484ad98d734
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.user_image.field_media_image
+    - image.style.medium
+    - media.type.user_image
+  module:
+    - image
+id: media.user_image.default
+targetEntityType: media
+bundle: user_image
+mode: default
+content:
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

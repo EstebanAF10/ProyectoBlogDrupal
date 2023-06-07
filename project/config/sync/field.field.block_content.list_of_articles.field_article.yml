@@ -1,0 +1,21 @@
+uuid: 8d7f5e1d-a4d0-4f0d-a2e4-efa37b566f81
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.list_of_articles
+    - field.storage.block_content.field_article
+id: block_content.list_of_articles.field_article
+field_name: field_article
+entity_type: block_content
+bundle: list_of_articles
+label: Article
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

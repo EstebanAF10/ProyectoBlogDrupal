@@ -1,0 +1,23 @@
+uuid: 53b55a2b-ac70-4633-8c1a-3ee32b4087cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.user
+  module:
+    - text
+id: node.user.body
+field_name: body
+entity_type: node
+bundle: user
+label: Bio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

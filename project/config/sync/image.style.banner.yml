@@ -1,0 +1,15 @@
+uuid: 7460917c-4077-4f45-8c83-53b41bc745d5
+langcode: en
+status: true
+dependencies: {  }
+name: banner
+label: 'Banner (700x225)'
+effects:
+  768647be-da0b-435e-9690-b5b9b43ca34f:
+    uuid: 768647be-da0b-435e-9690-b5b9b43ca34f
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 700
+      height: 225
+      anchor: center-center
