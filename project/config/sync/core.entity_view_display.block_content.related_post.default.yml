@@ -1,0 +1,37 @@
+uuid: 52bfc2ca-ed17-41d7-8cee-6ea63b26b38f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.related_post
+    - field.field.block_content.related_post.body
+    - field.field.block_content.related_post.field_related_post
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.related_post.default
+targetEntityType: block_content
+bundle: related_post
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_related_post:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: custom_teaser
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

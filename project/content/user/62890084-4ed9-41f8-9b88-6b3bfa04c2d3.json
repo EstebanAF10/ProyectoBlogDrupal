@@ -1,0 +1,113 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/user\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/rest\/type\/user\/user"
+        },
+        "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/sites\/default\/files\/pictures\/2023-06\/generateImage_agWNrp.gif",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "62890084-4ed9-41f8-9b88-6b3bfa04c2d3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "wrostoruthed"
+        }
+    ],
+    "mail": [
+        {
+            "value": "wrostoruthed@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "UTC"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-01T02:22:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-06T02:12:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "access": [
+        {
+            "value": "1970-01-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "login": [
+        {
+            "value": "1970-01-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/sites\/default\/files\/pictures\/2023-06\/generateImage_agWNrp.gif"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-249q25m23z1.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "75c92667-e2bc-4816-82fd-df3895028ff0"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "pass": [
+        {
+            "value": "$S$Ew8zJWrR27gV3\/jmAAPwHtQMbM83EeVwV0byPkefqs8eN9.15th9"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+uuid: b897f045-b636-44e5-a761-4540c33df97e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.list_of_categories
+    - field.storage.block_content.field_category
+id: block_content.list_of_categories.field_category
+field_name: field_category
+entity_type: block_content
+bundle: list_of_categories
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

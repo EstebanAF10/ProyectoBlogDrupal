@@ -1,0 +1,13 @@
+uuid: becde353-682f-4f79-a1d4-d39df9f77c46
+langcode: en
+status: true
+dependencies: {  }
+id: user_image
+label: 'User image'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }
