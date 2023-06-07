@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/node\/80?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/node\/user"
+        },
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/node\/user\/revision_uid": [
+            {
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/9?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/node\/user\/uid": [
+            {
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/9?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/node\/user\/field_user_image": [
+            {
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/media\/76\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 80
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5812e4e8-397a-471e-bdea-44d5ee76c43a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "user"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-06-06T04:14:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/node\/user\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/9?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b1fd12cf-067f-4aeb-bb0b-2a06b64ddb07"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/node\/user\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/9?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b1fd12cf-067f-4aeb-bb0b-2a06b64ddb07"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/node\/user\/field_user_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/media\/76\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/media\/user_image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "55459be1-b38d-4842-82b4-c95cbb9175d1"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "User - Turpis",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-01T01:22:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-06T04:14:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Commoveo magna rusticus saluto. Causa consequat dolus exerci natu odio paulatim probo refero vel. Eu fere illum jus os persto quadrum quis sagaciter. Decet mos singularis utrum vel. Qui si valde. Causa diam gilvus melior molior pecus premo sed.\n\nBrevitas camur importunus luptatum minim molior probo singularis vicis. Aptent hos ille populus refoveo saepius uxor vulpes. Blandit esse eu hendrerit luctus magna quidem. Abbas incassum quidem sit. Aliquam autem gemino imputo modo singularis voco. Causa cogo erat lucidus. Duis gemino humo imputo premo. Commodo dolore feugiat metuo quidem sed utrum.\n\nAbigo conventio quae quibus venio. Abdo nutus similis. Appellatio dolore esca eum ex importunus patria persto. Commodo gravis inhibeo iusto letalis meus. Ad fere ibidem inhibeo mauris singularis valetudo.\n\nBlandit camur hos meus nutus patria quia volutpat. Accumsan adipiscing dolore haero nunc pecus. Jumentum modo neo occuro praemitto qui vulputate. Abico aliquip gemino. Esse mos nisl refoveo uxor. Adipiscing damnum illum luctus pagus quia roto si uxor. Defui diam duis et facilisis hos meus ullamcorper. Aliquip facilisis illum premo rusticus.\n\nFeugiat premo scisco vulputate. Distineo exerci occuro si sino. Ea natu premo probo sit vicis. Dolore immitto iriure roto scisco torqueo. Abdo bene cogo exerci feugiat genitus incassum refoveo rusticus. Abico caecus cui immitto oppeto pneum ratis roto sudo vereor.\n\nAcsi iusto mauris natu nutus pertineo tum vero voco. Adipiscing refoveo saepius scisco ut velit venio. Abbas camur laoreet mos nulla typicus velit. Damnum importunus nimis obruo similis suscipere valetudo volutpat.\n\nCommoveo elit gilvus lenis pneum proprius si ullamcorper vel. Accumsan dolore humo oppeto roto venio. Camur esse immitto inhibeo turpis. Ea esse euismod neque tincidunt. Causa ideo imputo in lobortis sudo validus. Facilisis hendrerit nobis nulla os. Dolore gravis ideo tation. At caecus capto esse euismod os tincidunt zelus. Haero imputo magna neo probo quidem similis tego uxor vel.\n\nComis gravis natu quidem tincidunt turpis velit volutpat. Autem dignissim dolor facilisis populus sed valde wisi. Autem eros ibidem illum. Acsi commoveo hendrerit paratus paulatim scisco sino. Camur causa jumentum lucidus ludus praesent sit. Accumsan ad dolor immitto magna molior nimis sagaciter. Gravis in ludus nostrud refoveo. Esca eum feugiat natu rusticus sudo vero virtus.\n\nAdipiscing decet ludus tum typicus. Commoveo esca gemino ideo lenis quidne vel. Blandit facilisi ille modo praesent velit. Dolor eros ex nulla nutus qui refero secundum usitas. Defui enim persto quibus tamen. Abigo aliquip dolore et praemitto quidne rusticus saluto vicis.\n\nErat eros importunus pala pertineo praemitto quae. Acsi facilisi jus pneum quae sudo tation voco. Ad damnum dolus facilisi nulla os quidne. Commoveo eligo imputo lobortis oppeto praesent. Cogo cui jumentum nulla odio os. Incassum nutus populus.\n\nAcsi exerci letalis melior utinam utrum velit. Gemino humo pneum. Blandit eligo in nunc proprius quadrum sagaciter suscipere. Appellatio ea enim erat hendrerit huic nostrud nulla voco. Hos secundum vereor.\n\nEligo eros hos incassum. Aliquip mauris nisl patria paulatim plaga saepius tego. Immitto nulla paulatim pecus populus. Adipiscing defui ea macto probo qui utrum vulputate. Comis laoreet ut wisi.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Commoveo magna rusticus saluto. Causa consequat dolus exerci natu odio paulatim probo refero vel. Eu fere illum jus os persto quadrum quis sagaciter. Decet mos singularis utrum vel. Qui si valde. Causa diam gilvus melior molior pecus premo sed.<\/p>\n<p>Brevitas camur importunus luptatum minim molior probo singularis vicis. Aptent hos ille populus refoveo saepius uxor vulpes. Blandit esse eu hendrerit luctus magna quidem. Abbas incassum quidem sit. Aliquam autem gemino imputo modo singularis voco. Causa cogo erat lucidus. Duis gemino humo imputo premo. Commodo dolore feugiat metuo quidem sed utrum.<\/p>\n<p>Abigo conventio quae quibus venio. Abdo nutus similis. Appellatio dolore esca eum ex importunus patria persto. Commodo gravis inhibeo iusto letalis meus. Ad fere ibidem inhibeo mauris singularis valetudo.<\/p>\n<p>Blandit camur hos meus nutus patria quia volutpat. Accumsan adipiscing dolore haero nunc pecus. Jumentum modo neo occuro praemitto qui vulputate. Abico aliquip gemino. Esse mos nisl refoveo uxor. Adipiscing damnum illum luctus pagus quia roto si uxor. Defui diam duis et facilisis hos meus ullamcorper. Aliquip facilisis illum premo rusticus.<\/p>\n<p>Feugiat premo scisco vulputate. Distineo exerci occuro si sino. Ea natu premo probo sit vicis. Dolore immitto iriure roto scisco torqueo. Abdo bene cogo exerci feugiat genitus incassum refoveo rusticus. Abico caecus cui immitto oppeto pneum ratis roto sudo vereor.<\/p>\n<p>Acsi iusto mauris natu nutus pertineo tum vero voco. Adipiscing refoveo saepius scisco ut velit venio. Abbas camur laoreet mos nulla typicus velit. Damnum importunus nimis obruo similis suscipere valetudo volutpat.<\/p>\n<p>Commoveo elit gilvus lenis pneum proprius si ullamcorper vel. Accumsan dolore humo oppeto roto venio. Camur esse immitto inhibeo turpis. Ea esse euismod neque tincidunt. Causa ideo imputo in lobortis sudo validus. Facilisis hendrerit nobis nulla os. Dolore gravis ideo tation. At caecus capto esse euismod os tincidunt zelus. Haero imputo magna neo probo quidem similis tego uxor vel.<\/p>\n<p>Comis gravis natu quidem tincidunt turpis velit volutpat. Autem dignissim dolor facilisis populus sed valde wisi. Autem eros ibidem illum. Acsi commoveo hendrerit paratus paulatim scisco sino. Camur causa jumentum lucidus ludus praesent sit. Accumsan ad dolor immitto magna molior nimis sagaciter. Gravis in ludus nostrud refoveo. Esca eum feugiat natu rusticus sudo vero virtus.<\/p>\n<p>Adipiscing decet ludus tum typicus. Commoveo esca gemino ideo lenis quidne vel. Blandit facilisi ille modo praesent velit. Dolor eros ex nulla nutus qui refero secundum usitas. Defui enim persto quibus tamen. Abigo aliquip dolore et praemitto quidne rusticus saluto vicis.<\/p>\n<p>Erat eros importunus pala pertineo praemitto quae. Acsi facilisi jus pneum quae sudo tation voco. Ad damnum dolus facilisi nulla os quidne. Commoveo eligo imputo lobortis oppeto praesent. Cogo cui jumentum nulla odio os. Incassum nutus populus.<\/p>\n<p>Acsi exerci letalis melior utinam utrum velit. Gemino humo pneum. Blandit eligo in nunc proprius quadrum sagaciter suscipere. Appellatio ea enim erat hendrerit huic nostrud nulla voco. Hos secundum vereor.<\/p>\n<p>Eligo eros hos incassum. Aliquip mauris nisl patria paulatim plaga saepius tego. Immitto nulla paulatim pecus populus. Adipiscing defui ea macto probo qui utrum vulputate. Comis laoreet ut wisi.<\/p>\n",
+            "summary": "Commoveo magna rusticus saluto. Causa consequat dolus exerci natu odio paulatim probo refero vel. Eu fere illum jus os persto quadrum quis sagaciter. Decet mos singularis utrum vel. Qui si valde. Causa diam gilvus melior molior pecus premo sed.\n\nBrevitas camur importunus luptatum minim molior probo singularis vicis. Aptent hos ille populus refoveo saepius uxor vulpes. Blandit esse eu hendrerit luctus magna quidem. Abbas incassum quidem sit. Aliquam autem gemino imputo modo singularis voco. Causa cogo erat lucidus. Duis gemino humo imputo premo. Commodo dolore feugiat metuo quidem sed utrum.\n\nAbigo conventio quae quibus venio. Abdo nutus similis. Appellatio dolore esca eum ex importunus patria persto. Commodo gravis inhibeo iusto letalis meus. Ad fere ibidem inhibeo mauris singularis valetudo.\n\nBlandit camur hos meus nutus patria quia volutpat. Accumsan adipiscing dolore haero nunc pecus. Jumentum modo neo occuro praemitto qui vulputate. Abico aliquip gemino. Esse mos nisl refoveo uxor. Adipiscing damnum illum luctus pagus quia roto si uxor. Defui diam duis et facilisis hos meus ullamcorper. Aliquip facilisis illum premo rusticus.\n\nFeugiat premo scisco vulputate. Distineo exerci occuro si sino. Ea natu premo probo sit vicis. Dolore immitto iriure roto scisco torqueo. Abdo bene cogo exerci feugiat genitus incassum refoveo rusticus. Abico caecus cui immitto oppeto pneum ratis roto sudo vereor.\n\nAcsi iusto mauris natu nutus pertineo tum vero voco. Adipiscing refoveo saepius scisco ut velit venio. Abbas camur laoreet mos nulla typicus velit. Damnum importunus nimis obruo similis suscipere valetudo volutpat.\n\nCommoveo elit gilvus lenis pneum proprius si ullamcorper vel. Accumsan dolore humo oppeto roto venio. Camur esse immitto inhibeo turpis. Ea esse euismod neque tincidunt. Causa ideo imputo in lobortis sudo validus. Facilisis hendrerit nobis nulla os. Dolore gravis ideo tation. At caecus capto esse euismod os tincidunt zelus. Haero imputo magna neo probo quidem similis tego uxor vel.\n\nComis gravis natu quidem tincidunt turpis velit volutpat. Autem dignissim dolor facilisis populus sed valde wisi. Autem eros ibidem illum. Acsi commoveo hendrerit paratus paulatim scisco sino. Camur causa jumentum lucidus ludus praesent sit. Accumsan ad dolor immitto magna molior nimis sagaciter. Gravis in ludus nostrud refoveo. Esca eum feugiat natu rusticus sudo vero virtus.\n\nAdipiscing decet ludus tum typicus. Commoveo esca gemino ideo lenis quidne vel. Blandit facilisi ille modo praesent velit. Dolor eros ex nulla nutus qui refero secundum usitas. Defui enim persto quibus tamen. Abigo aliquip dolore et praemitto quidne rusticus saluto vicis.\n\nErat eros importunus pala pertineo praemitto quae. Acsi facilisi jus pneum quae sudo tation voco. Ad damnum dolus facilisi nulla os quidne. Commoveo eligo imputo lobortis oppeto praesent. Cogo cui jumentum nulla odio os. Incassum nutus populus.\n\nAcsi exerci letalis melior utinam utrum velit. Gemino humo pneum. Blandit eligo in nunc proprius quadrum sagaciter suscipere. Appellatio ea enim erat hendrerit huic nostrud nulla voco. Hos secundum vereor.\n\nEligo eros hos incassum. Aliquip mauris nisl patria paulatim plaga saepius tego. Immitto nulla paulatim pecus populus. Adipiscing defui ea macto probo qui utrum vulputate. Comis laoreet ut wisi.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_username": [
+        {
+            "value": "Defui lobortis occur",
+            "format": "plain_text",
+            "processed": "<p>Defui lobortis occur<\/p>\n"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/sites\/default\/files\/oembed_thumbnails\/2023-06\/fA2KBUTT2bwNRuN02FPfLEbOKg67kn2GmTI_k7VB7gQ.jpg"
+        },
+        "type": {
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "40ed11c5-c682-489b-9506-3bef55ec556f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3abeb25c-2fb3-4f34-a4b2-d768b4578b4f"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "fA2KBUTT2bwNRuN02FPfLEbOKg67kn2GmTI_k7VB7gQ.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/2023-06\/fA2KBUTT2bwNRuN02FPfLEbOKg67kn2GmTI_k7VB7gQ.jpg",
+            "url": "\/sites\/default\/files\/oembed_thumbnails\/2023-06\/fA2KBUTT2bwNRuN02FPfLEbOKg67kn2GmTI_k7VB7gQ.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 23685
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-03T05:11:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-03T05:11:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
