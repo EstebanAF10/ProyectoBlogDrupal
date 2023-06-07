@@ -157,7 +157,11 @@ third_party_settings:
             region: first
             configuration:
               id: 'inline_block:related_post'
+<<<<<<< HEAD
               label: 'Recent posts'
+=======
+              label: 'Related posts'
+>>>>>>> 10.x
               label_display: '0'
               provider: layout_builder
               view_mode: full
@@ -166,6 +170,7 @@ third_party_settings:
               block_serialized: null
             weight: 1
             additional: {  }
+<<<<<<< HEAD
           40b62f20-0589-4d57-83a0-4446be764812:
             uuid: 40b62f20-0589-4d57-83a0-4446be764812
             region: first
@@ -180,6 +185,8 @@ third_party_settings:
               block_serialized: null
             weight: 2
             additional: {  }
+=======
+>>>>>>> 10.x
         third_party_settings: {  }
 id: node.post.default
 targetEntityType: node

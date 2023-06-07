@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: video_block
-label: 'Related videos'
+label: 'Video Block'
 revision: 0
 description: ''

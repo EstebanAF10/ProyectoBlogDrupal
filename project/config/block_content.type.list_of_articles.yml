@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: list_of_articles
-label: 'List of posts'
+label: 'List of articles'
 revision: 0
 description: ''

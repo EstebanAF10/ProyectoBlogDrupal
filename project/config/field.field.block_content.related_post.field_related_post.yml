@@ -10,7 +10,7 @@ id: block_content.related_post.field_related_post
 field_name: field_related_post
 entity_type: block_content
 bundle: related_post
-label: 'Related post'
+label: 'related post'
 description: ''
 required: false
 translatable: false
