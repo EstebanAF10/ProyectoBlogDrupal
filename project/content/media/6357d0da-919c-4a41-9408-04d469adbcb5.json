@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/media\/64\/edit?_format=hal_json"
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/media\/64\/edit?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/media\/user_image"
+            "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/type\/media\/user_image"
         },
-        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/media\/user_image\/uid": [
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/user_image\/uid": [
             {
-                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/1?_format=hal_json",
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/media\/user_image\/thumbnail": [
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/user_image\/thumbnail": [
             {
-                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif",
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/media\/user_image\/field_media_image": [
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/user_image\/field_media_image": [
             {
-                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif",
+                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif",
                 "lang": "en"
             }
         ]
@@ -59,14 +59,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/media\/user_image\/uid": [
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/user_image\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -77,14 +77,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/media\/user_image\/thumbnail": [
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/user_image\/thumbnail": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif"
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif"
                     },
                     "type": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -95,14 +95,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/relation\/media\/user_image\/field_media_image": [
+        "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/user_image\/field_media_image": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif"
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_1F2dHu.gif"
                     },
                     "type": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
