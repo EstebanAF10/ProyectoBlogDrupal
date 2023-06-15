@@ -6,7 +6,13 @@ dependencies:
     - field.field.media.media_video.field_media_oembed_video
     - media.type.media_video
   module:
+    - layout_builder
+    - layout_discovery
     - media
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 id: media.media_video.default
 targetEntityType: media
 bundle: media_video
