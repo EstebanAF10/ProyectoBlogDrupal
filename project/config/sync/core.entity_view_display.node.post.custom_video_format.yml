@@ -48,12 +48,12 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          32261320-2982-4c2d-906c-671752eedcd2:
-            uuid: 32261320-2982-4c2d-906c-671752eedcd2
+          7863fea7-1e18-41af-b74c-23519861e9bf:
+            uuid: 7863fea7-1e18-41af-b74c-23519861e9bf
             region: content
             configuration:
-              id: 'field_block:node:post:uid'
-              label: 'Authored by'
+              id: 'field_block:node:post:field_author'
+              label: Author
               label_display: '0'
               provider: layout_builder
               context_mapping:
@@ -61,30 +61,30 @@ third_party_settings:
                 view_mode: view_mode
               formatter:
                 type: entity_reference_label
-                label: inline
+                label: hidden
                 settings:
                   link: true
                 third_party_settings: {  }
             weight: 2
             additional: {  }
-          1d9c9a3d-cbc5-4bdd-8f7c-303b4a0d9572:
-            uuid: 1d9c9a3d-cbc5-4bdd-8f7c-303b4a0d9572
+          62ab1794-0ce3-4635-9bc6-34b122e5955b:
+            uuid: 62ab1794-0ce3-4635-9bc6-34b122e5955b
             region: content
             configuration:
-              id: 'field_block:node:post:title'
-              label: Title
+              id: 'field_block:node:post:body'
+              label: Body
               label_display: '0'
               provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
                 view_mode: view_mode
               formatter:
-                type: string
-                label: inline
+                type: text_summary_or_trimmed
+                label: hidden
                 settings:
-                  link_to_entity: false
+                  trim_length: 100
                 third_party_settings: {  }
-            weight: 1
+            weight: 3
             additional: {  }
         third_party_settings: {  }
 id: node.post.custom_video_format
