@@ -1,0 +1,21 @@
+uuid: 61b08275-0ff2-4e11-8c12-3f258f005565
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.blog_card
+  module:
+    - options
+id: paragraph.blog_card.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: blog_card
+label: text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
