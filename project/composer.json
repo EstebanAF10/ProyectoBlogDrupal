@@ -25,6 +25,7 @@
         "drupal/devel": "^5.1",
         "drupal/exclude_node_title": "^1.4",
         "drupal/paragraphs": "^1.15",
+        "drupal/ui_patterns": "^1.6",
         "drush/drush": "^11.5"
     },
     "require-dev": {

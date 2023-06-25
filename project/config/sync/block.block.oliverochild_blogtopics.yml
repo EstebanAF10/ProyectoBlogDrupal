@@ -1,0 +1,30 @@
+uuid: f3aad34c-6109-4976-b5ba-cf9f818771b0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9394a99c-7ad2-4dc5-96fe-e82b7aedc5f8'
+  module:
+    - block_content
+    - system
+  theme:
+    - oliverochild
+id: oliverochild_blogtopics
+theme: oliverochild
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:9394a99c-7ad2-4dc5-96fe-e82b7aedc5f8'
+settings:
+  id: 'block_content:9394a99c-7ad2-4dc5-96fe-e82b7aedc5f8'
+  label: 'Blog Topics'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/blogs\r\n/node"

@@ -1,0 +1,22 @@
+uuid: b37fd44f-a850-46de-b4f9-4f9ddc4c5883
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oliverochild
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: oliverochild_primary_local_tasks
+theme: oliverochild
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

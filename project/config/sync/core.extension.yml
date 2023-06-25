@@ -53,6 +53,8 @@ module:
   text: 0
   toolbar: 0
   tour: 0
+  ui_patterns: 0
+  ui_patterns_library: 0
   update: 0
   user: 0
   views_ui: 0
@@ -61,4 +63,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  stable9: 0
+  oliverochild: 0
 profile: minimal

@@ -1,0 +1,26 @@
+.btn{
+    width: 139.601px;
+    height: 40.238px;
+    flex-shrink: 0;
+    border-radius: 4.723px;
+    background: #1C5CFF;
+    color: #ffffff;
+    padding: 1em;
+    text-decoration: none;
+    
+}
+
+.btn--link{
+    background-color: white;
+    color: gray;
+}
+
+.btn--link:hover{
+    color: gray;
+    border: none;
+    text-decoration: underline;
+}
+
+i{
+  padding-left: 15px;
+}

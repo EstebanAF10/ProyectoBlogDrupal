@@ -1,0 +1,22 @@
+uuid: 3677d2d9-5383-4dc5-8ef7-587e27dc4ef8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oliverochild
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: oliverochild_content
+theme: oliverochild
+region: content
+weight: -8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

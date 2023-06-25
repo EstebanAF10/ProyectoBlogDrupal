@@ -1,0 +1,23 @@
+uuid: c297a856-94d1-4e59-945c-899651db8a84
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - oliverochild
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: oliverochild_search_form_narrow
+theme: oliverochild
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
