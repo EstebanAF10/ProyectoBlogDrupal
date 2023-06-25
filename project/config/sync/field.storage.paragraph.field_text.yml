@@ -10,7 +10,16 @@ field_name: field_text
 entity_type: paragraph
 type: list_string
 settings:
-  allowed_values: {  }
+  allowed_values:
+    -
+      value: default
+      label: 'Default black text'
+    -
+      value: blue_text
+      label: 'Blue text'
+    -
+      value: gray_text
+      label: 'Gray text'
   allowed_values_function: ''
 module: options
 locked: false
