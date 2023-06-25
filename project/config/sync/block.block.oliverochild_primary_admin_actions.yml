@@ -1,0 +1,20 @@
+uuid: 260ea5e3-f0d6-4e72-88e1-afd5a242d1af
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oliverochild
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: oliverochild_primary_admin_actions
+theme: oliverochild
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

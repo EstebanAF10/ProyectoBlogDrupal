@@ -1,0 +1,31 @@
+uuid: 80deb6e0-e15a-430c-91b0-d8dc9793b5e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - oliverochild
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: oliverochild_powered
+theme: oliverochild
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Submit your own blog!'
+  label_display: visible
+  provider: system
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      post: post
+      user: user

@@ -1,0 +1,27 @@
+uuid: d9e43b51-d0a8-4bca-a760-d73fb3162514
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - oliverochild
+id: oliverochild_pagetitle
+theme: oliverochild
+region: sidebar_first
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      post: post

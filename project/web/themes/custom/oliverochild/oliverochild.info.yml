@@ -1,0 +1,22 @@
+name: oliverochild
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - oliverochild/base
+  - oliverochild/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - oliverochild/user
+  core/drupal.dropbutton:
+    - oliverochild/dropbutton
+  core/drupal.dialog:
+    - oliverochild/dialog
+  file/drupal.file:
+    - oliverochild/file
+  core/drupal.progress:
+    - oliverochild/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.9'
