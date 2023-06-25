@@ -14,13 +14,13 @@
         ],
         "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/media_post\/thumbnail": [
             {
-                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_qiMcyt.png",
+                "href": "https://placekitten.com/200/200",
                 "lang": "en"
             }
         ],
         "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/relation\/media\/media_post\/field_media_image_1": [
             {
-                "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_qiMcyt.png",
+                "href": "https://placekitten.com/200/200",
                 "lang": "en"
             }
         ]
@@ -81,7 +81,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_qiMcyt.png"
+                        "href": "https://placekitten.com/200/200"
                     },
                     "type": {
                         "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/type\/file\/file"
@@ -99,7 +99,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_qiMcyt.png"
+                        "href": "https://placekitten.com/200/200"
                     },
                     "type": {
                         "href": "https:\/\/8080-estebanaf10-proyectoblo-rswv5spi4i0.ws-us99.gitpod.io\/rest\/type\/file\/file"

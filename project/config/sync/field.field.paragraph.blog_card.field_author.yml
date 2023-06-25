@@ -1,0 +1,29 @@
+uuid: 6877ee15-3d91-4ef9-93b2-bcf7179ab628
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_author
+    - node.type.user
+    - paragraphs.paragraphs_type.blog_card
+id: paragraph.blog_card.field_author
+field_name: field_author
+entity_type: paragraph
+bundle: blog_card
+label: author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      user: user
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

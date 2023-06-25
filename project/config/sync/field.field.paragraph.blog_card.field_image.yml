@@ -1,0 +1,29 @@
+uuid: 2bc11e98-1fb0-4a87-af61-a2a2012102c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - media.type.media_post
+    - paragraphs.paragraphs_type.blog_card
+id: paragraph.blog_card.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: blog_card
+label: image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      media_post: media_post
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
