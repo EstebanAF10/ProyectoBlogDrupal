@@ -1,7 +1,21 @@
 .txt_btn{
 
-    font-size: medium;
-    color: #868686;
+    color: #7D7D7D;
+    font-size: 13.139px;
+    font-family: Inter;
     text-decoration: none;
 
+}
+
+.txt_btn--gray_text{
+    color: #7D7D7D;
+
+}
+.txt_btn--black_text{
+    color: #000000;
+
+}
+.txt_btn--blue_text{
+    color: #1C5CFF;
+ 
 }

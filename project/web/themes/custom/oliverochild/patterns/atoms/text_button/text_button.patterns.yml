@@ -1,6 +1,19 @@
 text_button:
   label: 'Text Button'
   description: 'Text Button component'
+  variants:
+    default:
+      label: Default text
+      variant: black_text
+    blue_text:
+      label: Blue text
+      description: Blue Text to be placed.
+    gray_text:
+      label: Gray text
+      description: Gray Text to be placed.
+    black_text:
+      label: Black text
+      description: Black Text to be placed.
   fields:
     text:
       type: string

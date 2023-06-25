@@ -1,6 +1,6 @@
 .category_btn{
     display: inline-flex;
-    padding: 5.748px 13.96px;
+    padding: 3px 14px;
     align-items: flex-start;
     gap: 8.212px;
     border-radius: 25.457px;
@@ -10,5 +10,6 @@
     font-size: 13.139px;
     font-family: Inter;
     font-weight: 500;
+    text-decoration: none;
     
 }

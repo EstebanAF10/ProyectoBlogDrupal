@@ -1,0 +1,10 @@
+header:
+  label: 'Header'
+  description: 'Header component'
+
+  libraries:
+    -
+      header:
+        css:
+          component:
+            css/styles.css: {}
