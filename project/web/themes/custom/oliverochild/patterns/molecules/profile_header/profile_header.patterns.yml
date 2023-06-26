@@ -1,0 +1,10 @@
+profile_header:
+  label: 'Profile Header'
+  description: 'Profile Header component'
+
+  libraries:
+    -
+      profile_header:
+        css:
+          component:
+            css/styles.css: {}

@@ -17,21 +17,23 @@
 <div class="space-between">{{ pattern('category_button',{
         text: 'Views',
         url: '/node'
-    }) }}</div>    
+    }) }}</div>
 <div class="space-between">{{ pattern('text_button',{
         text: 'Author',
         url: '/node'
-    }) }}</div>  
+    }) }}</div>
 <div class="space-between">{{ pattern('text_button',{
         text: 'Read time',
         url: '/node'
-    }) }}</div>    
+    }) }}</div>
 </div>
 
 </div>
 <div class="card_image">
-  <div class="image_bg">
-  </div>
+  {{ pattern('image',{
+    image: 'Kitten',
+    url: 'https://placekitten.com/10'
+  })}}
 </div>
 
 </div>

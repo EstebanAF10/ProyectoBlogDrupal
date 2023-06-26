@@ -1,0 +1,10 @@
+post-title:
+  label: 'Post Title'
+  description: 'Port title component'
+
+  libraries:
+    -
+      post-title:
+        css:
+          component:
+            css/styles.css: {}

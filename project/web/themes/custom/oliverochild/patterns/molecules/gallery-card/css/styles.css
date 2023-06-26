@@ -1,0 +1,18 @@
+.card{
+    background-color: #ffffff;
+    padding:2em;
+}
+
+.more_info{
+    display: inline-flex; 
+    align-items: center;
+}
+
+.space-between{
+    padding: 1em 1em 0em 0em;
+}
+
+.gallery-card-items{
+    display: inline-flex;
+}
+

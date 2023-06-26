@@ -1,0 +1,10 @@
+nav_bar:
+  label: 'Nav Bar'
+  description: 'Nav bar'
+
+  libraries:
+    -
+      category_menu:
+        css:
+          component:
+            css/styles.css: {}

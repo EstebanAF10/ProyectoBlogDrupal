@@ -9,9 +9,7 @@
 .card_image{
     width: 30%;
     margin-left:4em;
-    background-color: gray;
 }
-
 
 .more_info{
     display: inline-flex; 
@@ -20,5 +18,5 @@
 
 .space-between{
     padding: 1em 1em 0em 0em;
-
 }
+

@@ -1,0 +1,11 @@
+full-post:
+  label: 'Full Post'
+  description: 'Full post component'
+
+      
+  libraries:
+    -
+      full-post:
+        css:
+          component:
+            css/styles.css: {}

@@ -1,0 +1,20 @@
+.img-style{
+    width: 200px;
+    height: 200px;
+}
+
+.img-style--profile_image{
+    border-radius: 94px;
+    width: 145px;
+    height: 145px;
+}
+
+.img-style--post_image{
+    width: 218.434px;
+    height: 225.825px;
+}
+
+.img-style--banner_image{
+    width: 702px;
+    height: 225px;
+}
