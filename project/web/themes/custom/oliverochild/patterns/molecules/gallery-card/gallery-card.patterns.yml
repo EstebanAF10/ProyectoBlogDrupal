@@ -1,0 +1,11 @@
+gallery-card:
+  label: 'Gallery card'
+  description: 'Gallery Card  component'
+
+      
+  libraries:
+    -
+      gallery-card:
+        css:
+          component:
+            css/styles.css: {}

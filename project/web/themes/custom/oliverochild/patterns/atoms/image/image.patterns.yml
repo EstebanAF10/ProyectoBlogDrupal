@@ -1,0 +1,34 @@
+image:
+  label: 'Image'
+  description: 'Base Image Container'
+  variants:
+    default:
+      label: Default image
+      variant: post_image
+    profile_image:
+      label: Profile Image
+      description: Image for profiles.
+    post_image:
+      label: Post Image
+      description: Image for posts thumbnails.
+    banner_image:
+      label: Banner Image
+      description: Image for posts banners.
+# Revisar el image field type
+  fields:
+    image:
+      type: src
+      label: Image container
+      description: Image
+      preview: 'Image'
+    url: 
+      type: url
+      label: URL
+      description: URL here.
+      preview: 'https://placekitten.com/1000'
+  libraries:
+    -
+      image:
+        css:
+          component:
+            css/styles.css: {}

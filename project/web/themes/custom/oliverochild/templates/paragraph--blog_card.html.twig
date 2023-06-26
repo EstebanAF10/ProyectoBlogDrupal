@@ -49,7 +49,10 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ content }}
+      {{ pattern('post_card',{
+
+        
+      }) }}
     {% endblock %}
   </div>
 {% endblock paragraph %}

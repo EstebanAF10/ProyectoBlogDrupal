@@ -1,0 +1,15 @@
+.card{
+    background-color: #ffffff;
+    padding:2em;
+    display: inline-flex;
+}
+
+.more_info{
+    display: inline-flex; 
+    align-items: center;
+}
+
+.space-between{
+    padding: 1em 1em 0em 0em;
+}
+

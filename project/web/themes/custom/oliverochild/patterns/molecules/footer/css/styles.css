@@ -1,0 +1,15 @@
+.footer-card{
+    background-color: #ffffff;
+    padding:2em;
+    display: inline-flex;
+}
+
+.space-between{
+    padding: 1em 1em 0em 0em;
+}
+
+.ml-15{
+    margin-left: 15em;
+}
+
+

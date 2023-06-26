@@ -1,0 +1,10 @@
+category_menu:
+  label: 'Category Menu'
+  description: 'Category Menu component'
+
+  libraries:
+    -
+      category_menu:
+        css:
+          component:
+            css/styles.css: {}
