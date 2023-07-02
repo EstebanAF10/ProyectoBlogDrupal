@@ -1,12 +1,12 @@
 <div class="card">
 <div class="card_content">
 <div>{{ pattern('text_button',{
-        text: 'June 24th',
-        url: '/node'
+        text: date,
+        url: '#'
     }) }}</div>
 <div>{{ pattern('title_text',{
-        text: 'Powerful Trading Tools and Features for Experienced Investors',
-        url: '/node'
+        text: title,
+        url: node_url
     }) }}</div>
 <div>{{ pattern('text_button',{
         text: 'I’m always trying to think of new and interesting business ideas. I generally try to come up with ideas by thinking of what I would want to do or see in the world. Then, I try to find reasons why it wouldn’t work...',
@@ -30,10 +30,7 @@
 
 </div>
 <div class="card_image">
-  {{ pattern('image',{
-    image: 'Kitten',
-    url: 'https://placekitten.com/10'
-  })}}
+   {{ url_image }}
 </div>
 
 </div>
