@@ -1,6 +1,23 @@
 post_card:
   label: 'Post Card'
   description: 'Post Card component'
+  fields:
+    date:
+      label: 'date'
+      type: 'text'
+      preview: 'June 24th'
+    url_image: 
+      label: 'url_image'
+      type: 'url' 
+      preview: 'https://placekitten.com/1000'
+    title: 
+      label: 'title'
+      type: 'text'
+      preview: 'Title test'
+    node_url:
+      label: 'url'
+      type: 'url'
+      preview: '#'
 
       
   libraries:
