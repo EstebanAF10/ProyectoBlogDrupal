@@ -11,82 +11,18 @@ dependencies:
     - field.field.node.post.field_comments
     - field.field.node.post.field_keyword
     - field.field.node.post.field_media_2
+    - image.style.large
     - node.type.post
   module:
     - comment
     - layout_builder
-    - layout_discovery
+    - media
     - text
     - user
 third_party_settings:
   layout_builder:
-    enabled: true
+    enabled: false
     allow_custom: false
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: body
-          context_mapping: {  }
-        components:
-          87451d48-edc5-4dd0-b593-bf8ee1dcb469:
-            uuid: 87451d48-edc5-4dd0-b593-bf8ee1dcb469
-            region: content
-            configuration:
-              id: 'field_block:node:post:field_media_2'
-              label: 'Media '
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: entity_reference_entity_view
-                label: hidden
-                settings:
-                  view_mode: default
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-          7863fea7-1e18-41af-b74c-23519861e9bf:
-            uuid: 7863fea7-1e18-41af-b74c-23519861e9bf
-            region: content
-            configuration:
-              id: 'field_block:node:post:field_author'
-              label: Author
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: entity_reference_label
-                label: hidden
-                settings:
-                  link: true
-                third_party_settings: {  }
-            weight: 2
-            additional: {  }
-          62ab1794-0ce3-4635-9bc6-34b122e5955b:
-            uuid: 62ab1794-0ce3-4635-9bc6-34b122e5955b
-            region: content
-            configuration:
-              id: 'field_block:node:post:body'
-              label: Body
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: text_summary_or_trimmed
-                label: hidden
-                settings:
-                  trim_length: 100
-                third_party_settings: {  }
-            weight: 3
-            additional: {  }
-        third_party_settings: {  }
 id: node.post.custom_video_format
 targetEntityType: node
 bundle: post
@@ -101,7 +37,7 @@ content:
     region: content
   field_author:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -133,11 +69,13 @@ content:
     weight: 2
     region: content
   field_media_2:
-    type: entity_reference_entity_view
-    label: above
+    type: media_thumbnail
+    label: hidden
     settings:
-      view_mode: default
-      link: false
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 1
     region: content

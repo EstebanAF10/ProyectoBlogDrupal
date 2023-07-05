@@ -18,8 +18,18 @@ post_card:
       label: 'url'
       type: 'url'
       preview: '#'
-
-      
+    description: 
+      label: 'description'
+      type: 'text'
+      preview: 'I’m always trying to think of new and interesting business ideas. I generally try to come up with ideas by thinking of what I would want to do or see in the world. Then, I try to find reasons why it wouldn’t work...'
+    category: 
+      label: 'category'
+      type: 'text'  
+      preview: 'Views'
+    author: 
+      label: 'author'
+      type: 'text'  
+      preview: 'Author'
   libraries:
     -
       post_card:

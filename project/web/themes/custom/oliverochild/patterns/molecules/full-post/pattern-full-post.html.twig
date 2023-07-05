@@ -3,29 +3,18 @@
 <div>
 
 <div>
-  {{ pattern('image',{
-    image: 'Kitten',
-    url: 'https://placekitten.com/10'
-  })}}
+   {{ url_image }}
 </div>
-
+{#Hacer un pattern sin la url#}
 <div>{{ pattern('text_button',{
-        text: 'June 24th',
-        url: '/node'
-    }) }}</div>
-<div>{{ pattern('title_text',{
-        text: 'Powerful Trading Tools and Features for Experienced Investors',
-        url: '/node'
+        text: category,
+        url: '#' 
     }) }}</div>
 <div>{{ pattern('text_button',{
-        text: 'I’m always trying to think of new and interesting business ideas. I generally try to come up with ideas by thinking of what I would want to do or see in the world. Then, I try to find reasons why it wouldn’t work...',
-        url: '/node'
+        text: body,
+        url: '#'
     }) }}</div>
 
 </div>
 
-</div>
-
-
-</div>
 </div>

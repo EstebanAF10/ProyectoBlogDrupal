@@ -1,8 +1,19 @@
 gallery-card:
   label: 'Gallery card'
   description: 'Gallery Card  component'
-
-      
+  fields:
+    url_video: 
+      label: 'url_video'
+      type: 'url' 
+      preview: '#'
+    title: 
+      label: 'title'
+      type: 'text'
+      preview: 'Title test'
+    author: 
+      label: 'author'
+      type: 'text'
+      preview: 'Author'
   libraries:
     -
       gallery-card:
