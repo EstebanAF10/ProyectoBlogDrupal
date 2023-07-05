@@ -3,7 +3,7 @@ category_button:
   description: 'Category Button component'
   fields:
     text:
-      type: string
+      type: text
       label: Button text
       description: Text to be placed on the button.
       preview: 'Read more'

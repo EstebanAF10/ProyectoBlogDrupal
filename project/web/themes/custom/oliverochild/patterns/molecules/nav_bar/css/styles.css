@@ -1,7 +1,8 @@
-.card{
+.nav_card{
     background-color: #ffffff;
     padding:2em;
     display: inline-flex;
+    width: 100%;
 }
 .card_content{
     width: 60%;
@@ -21,7 +22,7 @@
 .menu_items{
     display: inline-flex; 
     align-items: center;
-    margin-left: 5em;
+    margin-left: 48em;
 }
 
 .space-between{

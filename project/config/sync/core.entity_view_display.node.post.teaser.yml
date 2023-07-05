@@ -30,9 +30,25 @@ content:
     type: text_summary_or_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 150
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_author:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 4
     region: content
   field_media_2:
     type: media_thumbnail
@@ -51,7 +67,5 @@ content:
     weight: 0
     region: content
 hidden:
-  field_author: true
-  field_category: true
   field_comments: true
   field_keyword: true

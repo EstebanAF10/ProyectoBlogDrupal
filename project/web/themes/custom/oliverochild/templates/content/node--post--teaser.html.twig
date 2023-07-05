@@ -77,13 +77,16 @@
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
   ]
 %}
-{{ kint(content) }}
+
 {#Aqui se envian los valores de nuestro pattern post_card#}
 <article{{ attributes.addClass(classes) }}>
   {{ pattern('post_card', {
     date: date,
     url_image: content.field_media_2,
     title: label,
-    url: url
+    node_url: url,
+    description: content.body,
+    category: content.field_category,
+    author: content.field_author
   }) }}
 </article>

@@ -1,23 +1,20 @@
-<div class="card">
+<div class="video-card">
 
 <div>
 
 <div>
-  {{ pattern('image',{
-    image: 'Kitten',
-    url: 'https://placekitten.com/10'
-  })}}
+   {{ url_video }}
 </div>
 
 <div>{{ pattern('title_text',{
-        text: 'Powerful Trading Tools and Features for Experienced Investors',
-        url: '/node'
+        text: title,
+        url: '#'
     }) }}</div>
 
 <div class="gallery-card-items">
 <div class="space-between">{{ pattern('text_button',{
-        text: 'Author',
-        url: '/node'
+        text: author,
+        url: '#'
     }) }}</div>
 
   <div class="space-between">{{ pattern('text_button',{

@@ -13,38 +13,11 @@ dependencies:
     - node.type.post
   module:
     - layout_builder
-    - layout_discovery
     - user
 third_party_settings:
   layout_builder:
-    enabled: true
+    enabled: false
     allow_custom: false
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          2fb4a680-5f44-4f88-a6fa-055470b64e76:
-            uuid: 2fb4a680-5f44-4f88-a6fa-055470b64e76
-            region: content
-            configuration:
-              id: 'field_block:node:post:field_author'
-              label: Author
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: entity_reference_label
-                label: hidden
-                settings:
-                  link: true
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-        third_party_settings: {  }
 id: node.post.custom_teaser
 targetEntityType: node
 bundle: post
@@ -52,7 +25,7 @@ mode: custom_teaser
 content:
   field_author:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -61,6 +34,7 @@ content:
 hidden:
   body: true
   field_category: true
+  field_category_test_: true
   field_comments: true
   field_keyword: true
   field_media_2: true
