@@ -1,3 +1,10 @@
+# Members:
+# Esteban Arias Fuentes - B70666
+# Sergio José Espinoza Carvajal - B92760
+# Alejandro Pacheco Vargas - C05769
+# Andrés Sancho Rojas - C07331 
+
+
 # A Drupal via DDEV template on Gitpod
 
 This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
