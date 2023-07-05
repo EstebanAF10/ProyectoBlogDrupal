@@ -1,7 +1,8 @@
-.card{
+.title_card{
     background-color: #ffffff;
     padding:2em;
     display: inline-flex;
+    width: 100%;
 }
 
 

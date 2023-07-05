@@ -1,20 +1,19 @@
 <div class="card">
 
 
-<div class="profile-img-style">{{ pattern('image',{
-        text: '',
-        url: '/node'
-    }) }}</div>
+<div>
+   {{ url_image }}
+</div>
 
-<div class="mt-4">
+<div class="margin-profile">
     <div>{{ pattern('title_text',{
-        text: 'Blogs',
-        url: '/node'
+        text: name,
+        url: '#'
     }) }}</div>
 
     <div>{{ pattern('text_button',{
-        text: 'Insides into the world of drupal',
-        url: '/node'
+        text: username,
+        url: '#'
     }) }}</div>
 </div>
 

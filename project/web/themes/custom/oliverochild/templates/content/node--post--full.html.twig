@@ -78,7 +78,15 @@
   ]
 %}
 
+
+
 <article{{ attributes.addClass(classes) }}>
+
+  {{ pattern('post-title', {
+    date: date,
+    title: label,
+    author: content.field_author
+  }) }}
 
    {{ pattern('full-post', {
     url_image: content.field_media_2,

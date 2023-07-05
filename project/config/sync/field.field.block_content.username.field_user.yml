@@ -1,0 +1,29 @@
+uuid: a2e1ead7-706f-4002-b27f-5fc90cfc82a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.username
+    - field.storage.block_content.field_user
+    - node.type.user
+id: block_content.username.field_user
+field_name: field_user
+entity_type: block_content
+bundle: username
+label: user
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      user: user
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

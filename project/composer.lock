@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98380aaa947ec52201ea0036c3de5f46",
+    "content-hash": "23fbc9ef9d8f6da688c59fa5ae5ebfa1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2126,6 +2126,55 @@
             "homepage": "https://www.drupal.org/project/hal",
             "support": {
                 "source": "https://git.drupalcode.org/project/hal"
+            }
+        },
+        {
+            "name": "drupal/iek",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/iek.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/iek-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "043a5c7348b83f4e30173fd4626193c52cbad34b"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10",
+                "ext-gd": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1674681659",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jay.Chen",
+                    "homepage": "https://www.drupal.org/user/180060"
+                },
+                {
+                    "name": "lonalore",
+                    "homepage": "https://www.drupal.org/user/1539304"
+                }
+            ],
+            "description": "Provides custom image effects.",
+            "homepage": "https://www.drupal.org/project/iek",
+            "support": {
+                "source": "https://git.drupalcode.org/project/iek"
             }
         },
         {

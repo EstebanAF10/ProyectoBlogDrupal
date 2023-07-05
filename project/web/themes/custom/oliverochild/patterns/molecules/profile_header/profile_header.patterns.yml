@@ -1,7 +1,19 @@
 profile_header:
   label: 'Profile Header'
   description: 'Profile Header component'
-
+  fields:
+    url_image: 
+      label: 'url_image'
+      type: 'url' 
+      preview: 'https://placekitten.com/1000'
+    name:
+      label: 'name'
+      type: 'text'
+      preview: 'nombre'
+    username:
+      label: 'username'
+      type: 'text'
+      preview: 'nombre de usuario'
   libraries:
     -
       profile_header:

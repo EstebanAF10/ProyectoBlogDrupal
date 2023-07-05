@@ -1,7 +1,19 @@
 post-title:
   label: 'Post Title'
   description: 'Port title component'
-
+  fields:
+    title: 
+      label: 'title'
+      type: 'text'
+      preview: 'Blogs'
+    author: 
+      label: 'author'
+      type: 'text'
+      preview: 'Author'
+    date: 
+      label: 'date'
+      type: 'text'
+      preview: 'Date'
   libraries:
     -
       post-title:

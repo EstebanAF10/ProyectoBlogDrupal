@@ -1,0 +1,22 @@
+uuid: 8fc5394e-72e8-4034-b9ab-e1f0e1737eb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.username
+    - field.field.block_content.username.field_user
+id: block_content.username.default
+targetEntityType: block_content
+bundle: username
+mode: default
+content:
+  field_user:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
