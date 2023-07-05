@@ -25,6 +25,13 @@
     margin-right: 6em;
 }
 
-.mt-4{
+.margin-profile{
     margin-top: 4em;
+    margin-left: 3em;
+}
+
+.profile_image{
+    border-radius: 94px;
+    width: 145px;
+    height: 145px;
 }

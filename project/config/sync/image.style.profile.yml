@@ -1,7 +1,22 @@
 uuid: 3fc78ae8-8c95-4813-822d-66e6dcf18757
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - iek
 name: profile
 label: Profile
-effects: {  }
+effects:
+  e32d2610-afbd-4ca4-b955-24c44ed066bf:
+    uuid: e32d2610-afbd-4ca4-b955-24c44ed066bf
+    id: iek_image_corner
+    weight: 1
+    data:
+      radius: '300'
+  4784a59f-4ad6-41b4-9345-e09186f0685e:
+    uuid: 4784a59f-4ad6-41b4-9345-e09186f0685e
+    id: image_resize
+    weight: 3
+    data:
+      width: 200
+      height: 200

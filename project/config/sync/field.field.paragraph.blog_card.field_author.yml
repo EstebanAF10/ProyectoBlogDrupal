@@ -11,7 +11,7 @@ field_name: field_author
 entity_type: paragraph
 bundle: blog_card
 label: author
-description: ''
+description: "default|Default\r\nblue_text|Blue text\r\ngray_text|Gray text\r\nblack_text|Black text"
 required: false
 translatable: false
 default_value: {  }
