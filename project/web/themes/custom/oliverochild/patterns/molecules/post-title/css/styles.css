@@ -13,9 +13,9 @@
 }
 
 
-.space-between{
+.space-between-items{
     padding: 1em 1em 0em 0em;
-
+    align-self: center;
 }
 
 .title-items{

@@ -10,7 +10,7 @@ dependencies:
     - field.field.node.post.field_comments
     - field.field.node.post.field_keyword
     - field.field.node.post.field_media_2
-    - image.style.thumbnail
+    - image.style.large
     - node.type.post
   module:
     - layout_builder
@@ -55,7 +55,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: thumbnail
+      image_style: large
       image_loading:
         attribute: lazy
     third_party_settings: {  }
