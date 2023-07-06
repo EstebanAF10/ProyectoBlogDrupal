@@ -2,10 +2,13 @@
     background-color: #ffffff;
     padding:2em;
     display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .space-between{
     padding: 1em 1em 0em 0em;
+    margin-top: 2em;
 }
 
 .ml-15{

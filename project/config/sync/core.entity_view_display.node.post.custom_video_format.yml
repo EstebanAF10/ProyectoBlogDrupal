@@ -11,12 +11,10 @@ dependencies:
     - field.field.node.post.field_comments
     - field.field.node.post.field_keyword
     - field.field.node.post.field_media_2
-    - image.style.large
     - node.type.post
   module:
     - comment
     - layout_builder
-    - media
     - text
     - user
 third_party_settings:
@@ -69,13 +67,11 @@ content:
     weight: 2
     region: content
   field_media_2:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: large
-      image_loading:
-        attribute: lazy
+      view_mode: video
+      link: false
     third_party_settings: {  }
     weight: 1
     region: content

@@ -7,7 +7,6 @@ dependencies:
     - media.type.media_video
   module:
     - layout_builder
-    - layout_discovery
     - media
 third_party_settings:
   layout_builder:
@@ -22,8 +21,8 @@ content:
     type: oembed
     label: visually_hidden
     settings:
-      max_width: 0
-      max_height: 0
+      max_width: 1500
+      max_height: 500
     third_party_settings: {  }
     weight: 0
     region: content

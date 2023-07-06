@@ -1,0 +1,10 @@
+uuid: 819837e6-b6f1-4c20-b27e-20f5f5762d3b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.video
+label: Video
+targetEntityType: node
+cache: true
