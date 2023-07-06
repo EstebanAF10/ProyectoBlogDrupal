@@ -1,0 +1,10 @@
+uuid: dd3d9df1-e7c8-4f3e-bd85-f73c902ad469
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.video
+label: video
+targetEntityType: media
+cache: true

@@ -14,6 +14,10 @@ gallery-card:
       label: 'author'
       type: 'text'
       preview: 'Author'
+    url_node: 
+      label: 'url_node'
+      type: 'url'
+      preview: '#'
   libraries:
     -
       gallery-card:
