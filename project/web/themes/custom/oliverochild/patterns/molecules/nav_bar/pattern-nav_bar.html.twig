@@ -1,45 +1,51 @@
 <div class="nav_card">
-<div class="card_content">
+  <div class="more_info">
+    <div class="space-between">{{ pattern('title_text',{
+            text: 'Drupal',
+            url: '/node/8'
+        }) }}</div> 
+    <div class="space-between search-bar-style">{{ pattern('search_bar',{
+            text: 'Search...',
+            url: '/node'
+        }) }}</div> 
+  </div>
 
-<div class= "more_info">
-<div class="space-between">{{ pattern('title_text',{
-        text: 'Drupal',
-        url: '/node/8'
-    }) }}</div> 
- <div class="space-between search-bar-style">{{ pattern('search_bar',{
-        text: 'Search...',
-        url: '/node'
-    }) }}</div> 
-
-<div class= "menu_items">
-
-    <div class="space-between">{{ pattern('text_button',{
-        text: 'Home',
-        url: '/node/8'
-    }) }}</div> 
-    <div class="space-between">{{ pattern('text_button',{
-        text: 'Blogs',
-        url: '/node/11'
-    }) }}</div> 
-    <div class="space-between">{{ pattern('text_button',{
-        text: 'Profile',
-        url: '/node/103'
-    }) }}</div> 
-    <div class="space-between">{{ pattern('text_button',{
-        text: 'Gallery',
-        url: '/node/10'
-    }) }}</div> 
-
-<div class="space-between">{{ pattern('button',{
-        text: 'Login',
-        url: '/user/login'
-    }) }}</div> 
-</div>
-        
-
-</div>
-
-</div>
-
-</div>
+  <div class="menu_items">
+    <div class="space-between">
+      {{ pattern('text_button',{
+          text: 'Home',
+          url: '/node/8'
+      }) }}
+    </div> 
+    <div class="space-between">
+      {{ pattern('text_button',{
+          text: 'Blogs',
+          url: '/node/11'
+      }) }}
+    </div> 
+    <div class="space-between">
+      {{ pattern('text_button',{
+          text: 'Profile',
+          url: '/node/103'
+      }) }}
+    </div> 
+    <div class="space-between">
+      {{ pattern('text_button',{
+          text: 'Gallery',
+          url: '/node/10'
+      }) }}
+    </div> 
+    <div class="space-between">
+      {{ pattern('button',{
+          text: 'Login',
+          url: '/user/login'
+      }) }}
+    </div> 
+    <div class="space-between">
+      {{ pattern('button',{
+          text: 'Logout',
+          url: '/user/logout'
+      }) }}
+    </div> 
+  </div>
 </div>

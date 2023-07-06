@@ -1,0 +1,28 @@
+normal_text:
+  label: 'Normal Text'
+  description: 'Text component'
+  variants:
+    default:
+      label: Default text
+      variant: black_text
+    blue_text:
+      label: Blue text
+      description: Blue Text to be placed.
+    gray_text:
+      label: Gray text
+      description: Gray Text to be placed.
+    black_text:
+      label: Black text
+      description: Black Text to be placed.
+  fields:
+    text:
+      type: text
+      label: text
+      description: Text to be placed on the component.
+      preview: 'Read more'
+  libraries:
+    -
+      normal_text:
+        css:
+          component:
+            css/styles.css: {}

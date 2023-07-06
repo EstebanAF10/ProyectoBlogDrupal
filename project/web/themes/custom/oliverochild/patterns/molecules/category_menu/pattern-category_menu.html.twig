@@ -1,33 +1,36 @@
 <div class="card">
 <div class="card_content">
 
-<div>{{ pattern('text_button',{
+<div>{{ pattern('normal_text',{
         text: 'Categories',
-        url: '/node'
-    }) }}</div>
+    }, 'blue_text') }}</div>
 
 
-<div class= "more_info">
-<div class="space-between">{{ pattern('category_button',{
+<div class= "more_info-category">
+<div class="first-item">{{ pattern('category_button',{
         text: 'Views',
-        url: '/node'
+        url: '/taxonomy/term/4'
     }) }}</div> 
  <div class="space-between">{{ pattern('category_button',{
-        text: 'Views',
-        url: '/node'
+        text: 'Modules',
+        url: '/taxonomy/term/3'
     }) }}</div> 
  <div class="space-between">{{ pattern('category_button',{
-        text: 'Views',
-        url: '/node'
+        text: 'Templates',
+        url: '/taxonomy/term/5'
     }) }}</div> 
   <div class="space-between">{{ pattern('category_button',{
-        text: 'Views',
-        url: '/node'
+        text: 'Users',
+        url: '/taxonomy/term/8'
     }) }}</div> 
  <div class="space-between">{{ pattern('category_button',{
-        text: 'Views',
-        url: '/node'
-    }) }}</div>            
+        text: 'Installation',
+        url: '/taxonomy/term/6'
+    }) }}</div>
+<div class="space-between">{{ pattern('category_button',{
+        text: 'Nodes',
+        url: '/taxonomy/term/7'
+    }) }}</div>               
 
 </div>
 

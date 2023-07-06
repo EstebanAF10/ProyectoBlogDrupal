@@ -9,7 +9,6 @@
 
 .txt_btn--gray_text{
     color: #7D7D7D;
-
 }
 .txt_btn--black_text{
     color: #000000;
@@ -17,5 +16,5 @@
 }
 .txt_btn--blue_text{
     color: #1C5CFF;
- 
+    text-decoration: none;
 }

@@ -1,0 +1,31 @@
+uuid: 28712a43-ba8f-412a-bab2-a3d014c522a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.categories_top
+    - field.field.block_content.categories_top.field_categori
+id: block_content.categories_top.default
+targetEntityType: block_content
+bundle: categories_top
+mode: default
+content:
+  field_categori:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

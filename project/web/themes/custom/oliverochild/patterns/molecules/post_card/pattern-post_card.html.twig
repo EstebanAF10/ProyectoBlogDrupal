@@ -1,17 +1,15 @@
 <div class="card">
 <div class="card_content">
 
-<div>{{ pattern('text_button',{
+<div>{{ pattern('normal_text',{
         text: date,
-        url: '#'
     }) }}</div>
 <div>{{ pattern('title_text',{
         text: title,
         url: node_url
     }) }}</div>
-<div>{{ pattern('text_button',{
+<div>{{ pattern('normal_text',{
         text: description,
-        url: '#'
     }) }}</div>
 
 <div class= "more_info">
@@ -23,14 +21,13 @@
         text: author,
         url: '#'
     }) }}</div>
-<div class="space-between">{{ pattern('text_button',{
+<div class="space-between">{{ pattern('normal_text',{
         text: '2 min.',
-        url: '/node'
-    }) }}</div>
+    }, 'black_text') }}</div>
 </div>
 
 </div>
-<div class="card_image">
+<div class="post_card_image">
    {{ url_image }}
 </div>
 

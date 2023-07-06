@@ -1,0 +1,20 @@
+.txt{
+
+    color: #7D7D7D;
+    font-size: 13.139px;
+    font-family: Inter;
+    text-decoration: none;
+
+}
+
+.txt--gray_text{
+    color: #7D7D7D;
+
+}
+.txt--black_text{
+    color: #000000;
+
+}
+.txt--blue_text{
+    color: #1C5CFF;
+}

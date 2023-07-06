@@ -1,7 +1,6 @@
 <div class="title_card">
 <div>
 
-
 <div>{{ pattern('title_text',{
         text: title,
         url: '#'
@@ -9,15 +8,14 @@
 
 <div class="title-items">
 
-<div class="space-between">{{ pattern('text_button',{
+<div class="space-between-items">{{ pattern('text_button',{
         text: author,
         url: '/node'
     }) }}</div>
 
-<div class="space-between">{{ pattern('text_button',{
+<div class="space-between-items">{{ pattern('normal_text',{
         text: date,
-        url: '#'
-    }) }}</div>
+    }, 'gray_text') }}</div>
 
 </div>
 

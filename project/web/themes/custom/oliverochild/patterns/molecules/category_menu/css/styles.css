@@ -13,12 +13,16 @@
 }
 
 
-.more_info{
+.more_info-category{
     display: inline-flex; 
     align-items: center;
+    padding-top: 1em;
 }
 
 .space-between{
     padding: 1em 1em 0em 0em;
+}
 
+.first-item{
+    padding: 0em 1em 0em 0em;
 }
